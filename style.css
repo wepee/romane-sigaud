@@ -60,6 +60,11 @@ header > a > button {
     margin: 25px auto;
 }
 
+header > a > button:hover {
+    background-color: white;
+    color: #E1061B;
+}
+
 h2 {
     text-align: center;
 }
@@ -87,10 +92,14 @@ h2 {
 .title {
     padding: 10px;
     text-align: center;
-    font-family: Cabin;
+    font-family: 'Cabin', sans-serif;
     font-size: x-large;
     font-weight: 700;
-    max-width: 250px;
+    max-width: 330px;
+    height: 60px;
+    display: block;
+    vertical-align: middle;
+    width: 100%;
 }
 
 #white {
@@ -151,6 +160,7 @@ h2 {
 
 .box-title {
     display: flex;
+    justify-content: center;
     align-items: center;
     line-height: 30px;
     width: inherit;
@@ -161,7 +171,7 @@ h2 {
     vertical-align: middle;
     color: white;
     letter-spacing: 2px;
-    background-color: #FFFFFF50;
+    background-color: #FFFFFF50; /* Norme W3C, CSS4 */
     position: absolute;
     bottom: 0;
 }
