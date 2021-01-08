@@ -1,0 +1,167 @@
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #E2E2E2;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    font-size: x-large;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #202D54;
+}
+
+header {
+    background: url("images/banner.png") no-repeat center;
+    background-size: cover;
+    padding: 10px 30px 30px;
+    min-height: 600px;
+}
+
+.hero {
+    margin: 0 auto;
+    text-align: center;
+    color: #202D54;
+}
+
+.hero > hr {
+    width: 10%;
+    background-color: #E1061B;
+    border: none;
+    height: 6px;
+}
+
+.hero > img {
+    height: 180px;
+    margin: 25px auto;
+}
+
+header > a {
+    text-decoration: none;
+}
+
+header > a > button {
+    font-family: 'Cabin', sans-serif;
+    background-color: #E1061B;
+    padding: 5px 50px;
+    border: none;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.75); /* https://www.cssmatic.com/box-shadow */
+    border-radius: 8px;
+    color: white;
+    font-size: xx-large;
+    display: block;
+    margin: 25px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container > div {
+    margin: 25px;
+    border: 5px solid #202D54;
+}
+
+.telecom {
+    background-color: white;
+    padding: 50px;
+}
+
+.sdis {
+    background-color: #202D54;
+    padding: 50px;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+    font-family: Cabin;
+    font-size: x-large;
+    font-weight: 700;
+    max-width: 250px;
+}
+
+#white {
+    background-color: white;
+    color: #202D54;
+}
+
+#blue {
+    background-color: #202D54;
+    color: white;
+}
+
+.img-telecom {
+    background: center / contain no-repeat url("images/logo-telecom.png");
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.img-sdis {
+    background: center / contain no-repeat url("images/logo-SDIS.PNG");
+    width: 250px;
+    height: 300px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 5px solid #E1061B;
+    position: relative;
+}
+
+#community-management {
+    background: center / cover no-repeat url("images/community-management.jpg");
+}
+
+#design {
+    background: center / cover no-repeat url("images/design.jpg");
+}
+
+#photographie {
+    background: center / cover no-repeat url("images/photographie.jpg");
+}
+
+.competences {
+    display: flex;
+    justify-content: center;
+}
+
+.competences > div {
+    margin: 25px;
+}
+
+.competences > div:hover .box-title {
+    height: inherit;
+    vertical-align: middle;
+}
+
+.box-title {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    width: inherit;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #FFFFFF50;
+    position: absolute;
+    bottom: 0;
+}
