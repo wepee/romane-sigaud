@@ -4,7 +4,7 @@ html, body {
     background-color: #E2E2E2;
 }
 
-p, h5 {
+p {
     font-family: 'Cabin', sans-serif;
     font-size: x-large;
     letter-spacing: 1px;
@@ -186,6 +186,7 @@ footer {
 footer > * {
     border-right: solid red 3px;
     padding: 0 50px;
+    color: #202D54;
 }
 
 footer > a > button {
