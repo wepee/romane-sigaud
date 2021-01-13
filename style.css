@@ -4,7 +4,7 @@ html, body {
     background-color: #E2E2E2;
 }
 
-p {
+p, h5 {
     font-family: 'Cabin', sans-serif;
     font-size: x-large;
     letter-spacing: 1px;
