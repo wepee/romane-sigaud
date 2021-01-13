@@ -43,11 +43,11 @@ header {
     margin: 25px auto;
 }
 
-header > a {
+a {
     text-decoration: none;
 }
 
-header > a > button {
+a > button {
     font-family: 'Cabin', sans-serif;
     background-color: #E1061B;
     padding: 5px 50px;
@@ -174,4 +174,21 @@ h2 {
     background-color: #FFFFFF50; /* Norme W3C, CSS4 */
     position: absolute;
     bottom: 0;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > * {
+    border-right: solid red 3px;
+    padding: 0 50px;
+}
+
+footer > a > button {
+    font-size: x-large;
+    text-transform: uppercase;
 }
