@@ -60,7 +60,7 @@ a > button {
     margin: 25px auto;
 }
 
-header > a > button:hover {
+a > button:hover {
     background-color: white;
     color: #E1061B;
 }
