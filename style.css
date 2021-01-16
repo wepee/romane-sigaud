@@ -96,7 +96,7 @@ h2 {
     font-size: x-large;
     font-weight: 700;
     max-width: 330px;
-    height: 60px;
+    min-height: 60px;
     display: block;
     vertical-align: middle;
     width: 100%;
